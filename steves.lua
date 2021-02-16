@@ -137,7 +137,7 @@ MainCategory:Cheat(
 	  			if string.find(v.Name, _G.npctofarm) then
 	      		pcall(function()
 		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
-		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.5)
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.3)
 		  		end)
 	 			end
       			end
@@ -218,7 +218,7 @@ MainCategory:Cheat(
 	  			if string.find(v.Name, _G.npctofarm) then
 	      		pcall(function()
 		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
-		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.5)
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.3)
 		  		end)
 	 			end
       			end
