@@ -2,7 +2,6 @@ function isnil(thing)
 return (thing == nil)
 end
 
-
 local function round(n)
 return math.floor(tonumber(n) + 0.5)
 end
