@@ -133,6 +133,14 @@ MainCategory:Cheat(
 		        end
 			    end
                 end
+                for _,v in pairs(game.Workspace:GetDescendants()) do
+	  			if string.find(v.Name, _G.npctofarm) then
+	      		pcall(function()
+		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.5)
+		  		end)
+	 			end
+      			end
 	            if _G.farmm == true then
                 for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
 					if v.Name == MELEE then 	
@@ -206,6 +214,14 @@ MainCategory:Cheat(
 		        end
 			    end
                 end
+                for _,v in pairs(game.Workspace:GetDescendants()) do
+	  			if string.find(v.Name, _G.npctofarm) then
+	      		pcall(function()
+		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.5)
+		  		end)
+	 			end
+      			end
 	            if _G.farmm == true then
                 for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
 					if v.Name == MELEE then 	
@@ -444,14 +460,4 @@ end
                 wait(0.1)
                 vu:Button1Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	            end
-      			if _G.stevefarm == true then
-      			for _,v in pairs(game.Workspace:GetDescendants()) do
-	  			if string.find(v.Name, _G.npctofarm) then
-	      		pcall(function()
-		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
-		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.3)
-		  		end)
-	 			end
-      			end
-      end
-end
+                end
