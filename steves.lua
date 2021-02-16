@@ -98,7 +98,7 @@ MainCategory:Cheat(
             _G.stevefarm = true
             _G.farms = true
                 repeat
-                wait(0.5)
+                wait(0.45)
                 if _G.stevefarm == true then
 	            for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
 					if v.Name == "Let them pay back!" then 
@@ -137,7 +137,7 @@ MainCategory:Cheat(
 	  			if string.find(v.Name, _G.npctofarm) then
 	      		pcall(function()
 		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
-		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.3)
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.1)
 		  		end)
 	 			end
       			end
@@ -218,7 +218,7 @@ MainCategory:Cheat(
 	  			if string.find(v.Name, _G.npctofarm) then
 	      		pcall(function()
 		  		v:FindFirstChild("HumanoidRootPart").Anchored = true
-		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.3)
+		  		v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-3.1)
 		  		end)
 	 			end
       			end
