@@ -40,20 +40,6 @@ local Finity = loadstring(game:HttpGet("https://pastebin.com/raw/BbxzJKTw"))()
 local FinityWindow = Finity.new(true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.RightControl)
 
-if player.UserId == 1592508166 and player.Name == "DeadM2opoSeU" or player.UserId == 220290181 and player.Name == "maks3006" or player.UserId == 1124599331 and player.Name == "DeadMopoSe" then
-    local Admin = FinityWindow:Category("Development")
-    local AdminCategory = Admin:Sector("Development")
-    AdminCategory:Cheat("Button", "Print Player Coordinates", function()
-        print(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
-    end)
-    AdminCategory:Cheat("Button", "Infinity Yield", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/wamuuu/some-scripts/main/iy.lua", true))()
-    end)
-    AdminCategory:Cheat("Button", "Remote2Script V2 Fixed", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/wamuuu/some-scripts/main/R2S-1.txt", true))()
-    end)
-end
-
 if game.PlaceId == 2116452049 then
     
 local Main = FinityWindow:Category("Main")
