@@ -106,7 +106,7 @@ MainCategory:Cheat(
 							v.Name = "Buggy pirate"
 						end)
 					end
-					if v.Name == "Annoying noobs...." then 
+					if v.Name == "Sword Master" then 
 						pcall(function()
 							v.Name = "Attacking Noob"
 						end)
