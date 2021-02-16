@@ -55,7 +55,7 @@ end, {
 	options = {
         "--Select",
         "Luffy",
-		"Attacking Noob",
+	"Attacking Noob",
         "Buggy pirate"
 	}
 })
